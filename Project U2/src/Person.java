@@ -29,4 +29,14 @@ public class Person {
         dept = dEpt;
         totalNetworth= annualSalary+(monthlySpending*12)-dept;
     }
+
+    /*
+     * Pseudo code:
+     * array with size 5
+     * make variables called eduInterest, minEdu, 
+     * 
+     * if else check if eduInterest is greater than minEdu else 
+     * 
+     * 
+     */
 }

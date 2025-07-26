@@ -1,4 +1,4 @@
-public class main {
+public class Main {
     public void randomRelationship(Person first,Person second){
         int randomChoice = (int)(Math.random()*5);
         switch (randomChoice){
@@ -20,7 +20,7 @@ public class main {
         }
     }
 
-    public static void main(String[] args) throws Exception {
+    public void Start(){
         System.out.println("Hello, World!");
         Person jake = new Person(25,"Jake");
         Person maindy = new Person(17,"Maindy");
@@ -29,5 +29,4 @@ public class main {
         Person billy = new Person(78,"Billy");
         randomRelationship(billy,bob);
     }
-
 }
